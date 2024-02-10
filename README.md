@@ -1,4 +1,4 @@
-# The Polygenic Score Catalog Calculator (`pgsc_calc`)
+# Catalog Scoring 
 
 [![Documentation Status](https://readthedocs.org/projects/pgsc-calc/badge/?version=latest)](https://pgsc-calc.readthedocs.io/en/latest/?badge=latest)
 [![pgscatalog/pgsc_calc CI](https://github.com/PGScatalog/pgsc_calc/actions/workflows/ci.yml/badge.svg)](https://github.com/PGScatalog/pgsc_calc/actions/workflows/ci.yml)
@@ -66,45 +66,3 @@ See [getting
 started](https://pgsc-calc.readthedocs.io/en/latest/getting-started.html) for more
 details.
 
-## Documentation
-
-[Full documentation is available on Read the Docs](https://pgsc-calc.readthedocs.io/)
-
-## Credits
-
-pgscatalog/pgsc_calc is developed as part of the PGS Catalog project, a
-collaboration between the University of Cambridge’s Department of Public Health
-and Primary Care (Michael Inouye, Samuel Lambert) and the European
-Bioinformatics Institute (Helen Parkinson, Laura Harris).
-
-The pipeline seeks to provide a standardized workflow for PGS calculation and
-ancestry inference implemented in nextflow derived from an existing set of
-tools/scripts developed by Inouye lab (Rodrigo Canovas, Scott Ritchie, Jingqin
-Wu) and PGS Catalog teams (Samuel Lambert, Laurent Gil).
-
-The adaptation of the codebase, nextflow implementation, and PGS Catalog features
-are written by Benjamin Wingfield, Samuel Lambert, Laurent Gil with additional input
-from Aoife McMahon (EBI). Development of new features, testing, and code review
-is ongoing including Inouye lab members (Rodrigo Canovas, Scott Ritchie) and others. A
-manuscript describing the tool is *in preparation*. In the meantime if you use the
-tool we ask you to cite the repo and the paper describing the PGS Catalog
-resource:
-
-- >PGS Catalog Calculator _(in preparation)_. PGS Catalog
-  Team. [https://github.com/PGScatalog/pgsc_calc](https://github.com/PGScatalog/pgsc_calc)
-- >Lambert _et al._ (2021) The Polygenic Score Catalog as an open database for
-reproducibility and systematic evaluation.  Nature Genetics. 53:420–425
-doi:[10.1038/s41588-021-00783-5](https://doi.org/10.1038/s41588-021-00783-5).
-
-This pipeline is distrubuted under an [Apache License](LICENSE) amd uses code and 
-infrastructure developed and maintained by the [nf-core](https://nf-co.re) community 
-(Ewels *et al. Nature Biotech* (2020) doi:[10.1038/s41587-020-0439-x](https://doi.org/10.1038/s41587-020-0439-x)), 
-reused here under the [MIT license](https://github.com/nf-core/tools/blob/master/LICENSE).
-
-Additional references of open-source tools and data used in this pipeline are described in
-[`CITATIONS.md`](CITATIONS.md).
-
-This work has received funding from EMBL-EBI core funds, the Baker Institute,
-the University of Cambridge, Health Data Research UK (HDRUK), and the European
-Union’s Horizon 2020 research and innovation programme under grant agreement No
-101016775 INTERVENE.
